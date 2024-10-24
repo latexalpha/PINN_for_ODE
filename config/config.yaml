@@ -1,0 +1,33 @@
+system: 
+  type: "nonauto" # "auto" or "nonauto"
+  m: 1
+  c: 1 # 1
+  k: 2 # 2
+  duration: 20 # 20
+  fs: 40
+  fe: 2.0
+  amp: 10.0
+
+network:
+  input_dim: 1 # 1 or 2
+  output_dim: 1
+  num_hidden_layers: 1
+  hidden_dim: 128
+
+training:
+  type: "ipinn" # "pinn" or "ipinn"
+  epochs: 6000
+  batch_size: 64
+  learning_rate: 1.0e-2
+  scheduler_step_size: 1000
+  scheduler_gamma: 0.75
+  physics_reg: 1.0e0
+  initial_reg: 1.0e3
+  data_reg: 5.0e0
+
+hydra:
+  run:
+    dir: ./outputs/${now:%Y%m%d_%H%M%S}
+  sweep:
+    dir: ./outputs/${now:%Y%m%d_%H%M%S}
+    subdir: running_number_${hydra.job.num}

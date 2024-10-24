@@ -1,0 +1,148 @@
+[2024-10-22 16:19:41,006][__main__][INFO] - INFO LEVEL MESSAGE: 
+
+[2024-10-22 16:19:41,008][__main__][INFO] - CONFIG: 
+system:
+  type: nonauto
+  m: 1
+  c: 1
+  k: 2
+  duration: 20
+  fs: 20
+  fe: 2.0
+  amp: 10.0
+network:
+  input_dim: 1
+  output_dim: 1
+  num_hidden_layers: 1
+  hidden_dim: 128
+training:
+  type: ipinn
+  epochs: 6000
+  batch_size: 32
+  learning_rate: 0.01
+  scheduler_step_size: 1000
+  scheduler_gamma: 0.75
+  physics_reg: 1.0
+  initial_reg: 1000.0
+  data_reg: 5.0
+
+[2024-10-22 16:19:43,698][__main__][INFO] - Epoch = 0/6000, Loss_total = 160455.2031250000,  Loss_t0 = 158.1917114258, Loss_data = 282.9161987305,  Loss_physics = 848.9219970703
+[2024-10-22 16:19:50,097][__main__][INFO] - Epoch = 50/6000, Loss_total = 876.2929687500,  Loss_t0 = 0.0000253863, Loss_data = 76.6608505249,  Loss_physics = 492.9632873535
+[2024-10-22 16:19:56,088][__main__][INFO] - Epoch = 100/6000, Loss_total = 846.9517211914,  Loss_t0 = 0.0002729647, Loss_data = 74.6852493286,  Loss_physics = 473.2526245117
+[2024-10-22 16:20:02,225][__main__][INFO] - Epoch = 150/6000, Loss_total = 820.6973266602,  Loss_t0 = 0.0003652609, Loss_data = 76.3850708008,  Loss_physics = 438.4067687988
+[2024-10-22 16:20:08,071][__main__][INFO] - Epoch = 200/6000, Loss_total = 807.5243530273,  Loss_t0 = 0.0006639179, Loss_data = 73.3988265991,  Loss_physics = 439.8662719727
+[2024-10-22 16:20:14,149][__main__][INFO] - Epoch = 250/6000, Loss_total = 769.4549560547,  Loss_t0 = 0.0005594183, Loss_data = 70.0327682495,  Loss_physics = 418.7317504883
+[2024-10-22 16:20:20,068][__main__][INFO] - Epoch = 300/6000, Loss_total = 742.1768798828,  Loss_t0 = 0.0004674917, Loss_data = 67.9884185791,  Loss_physics = 401.7672424316
+[2024-10-22 16:20:25,979][__main__][INFO] - Epoch = 350/6000, Loss_total = 979.0186767578,  Loss_t0 = 0.0012338588, Loss_data = 72.9313735962,  Loss_physics = 613.1279907227
+[2024-10-22 16:20:31,656][__main__][INFO] - Epoch = 400/6000, Loss_total = 740.1898193359,  Loss_t0 = 0.0002206103, Loss_data = 63.2980995178,  Loss_physics = 423.4787292480
+[2024-10-22 16:20:37,507][__main__][INFO] - Epoch = 450/6000, Loss_total = 716.4221801758,  Loss_t0 = 0.0000220911, Loss_data = 59.3080482483,  Loss_physics = 419.8598327637
+[2024-10-22 16:20:43,134][__main__][INFO] - Epoch = 500/6000, Loss_total = 700.4490356445,  Loss_t0 = 0.0005828247, Loss_data = 56.1413764954,  Loss_physics = 419.1593322754
+[2024-10-22 16:20:48,680][__main__][INFO] - Epoch = 550/6000, Loss_total = 650.2149658203,  Loss_t0 = 0.0029370373, Loss_data = 50.7737808228,  Loss_physics = 393.4091186523
+[2024-10-22 16:20:54,394][__main__][INFO] - Epoch = 600/6000, Loss_total = 637.7539062500,  Loss_t0 = 0.0005675018, Loss_data = 50.4979553223,  Loss_physics = 384.6966857910
+[2024-10-22 16:21:00,311][__main__][INFO] - Epoch = 650/6000, Loss_total = 629.8539428711,  Loss_t0 = 0.0000748104, Loss_data = 48.6991004944,  Loss_physics = 386.2836303711
+[2024-10-22 16:21:06,430][__main__][INFO] - Epoch = 700/6000, Loss_total = 616.7601318359,  Loss_t0 = 0.0001849978, Loss_data = 48.2428131104,  Loss_physics = 375.3610839844
+[2024-10-22 16:21:12,534][__main__][INFO] - Epoch = 750/6000, Loss_total = 633.7425537109,  Loss_t0 = 0.0012190279, Loss_data = 48.7508163452,  Loss_physics = 388.7694091797
+[2024-10-22 16:21:18,545][__main__][INFO] - Epoch = 800/6000, Loss_total = 622.7114257812,  Loss_t0 = 0.0004574510, Loss_data = 48.0836753845,  Loss_physics = 381.8356628418
+[2024-10-22 16:21:24,242][__main__][INFO] - Epoch = 850/6000, Loss_total = 614.7080688477,  Loss_t0 = 0.0006375960, Loss_data = 48.5147666931,  Loss_physics = 371.4965515137
+[2024-10-22 16:21:29,943][__main__][INFO] - Epoch = 900/6000, Loss_total = 623.1685791016,  Loss_t0 = 0.0007044165, Loss_data = 48.6271667480,  Loss_physics = 379.3283386230
+[2024-10-22 16:21:35,583][__main__][INFO] - Epoch = 950/6000, Loss_total = 620.2474365234,  Loss_t0 = 0.0015987507, Loss_data = 49.1223678589,  Loss_physics = 373.0368652344
+[2024-10-22 16:21:41,115][__main__][INFO] - Epoch = 1000/6000, Loss_total = 615.2423095703,  Loss_t0 = 0.0010858517, Loss_data = 48.3808021545,  Loss_physics = 372.2524719238
+[2024-10-22 16:21:46,582][__main__][INFO] - Epoch = 1050/6000, Loss_total = 623.8027343750,  Loss_t0 = 0.0008960373, Loss_data = 48.9484405518,  Loss_physics = 378.1644897461
+[2024-10-22 16:21:52,218][__main__][INFO] - Epoch = 1100/6000, Loss_total = 620.0283813477,  Loss_t0 = 0.0006470518, Loss_data = 49.1732673645,  Loss_physics = 373.5149536133
+[2024-10-22 16:21:58,577][__main__][INFO] - Epoch = 1150/6000, Loss_total = 615.3212280273,  Loss_t0 = 0.0016388504, Loss_data = 47.6973686218,  Loss_physics = 375.1954956055
+[2024-10-22 16:22:04,758][__main__][INFO] - Epoch = 1200/6000, Loss_total = 611.8458862305,  Loss_t0 = 0.0004691105, Loss_data = 48.5415496826,  Loss_physics = 368.6690673828
+[2024-10-22 16:22:11,293][__main__][INFO] - Epoch = 1250/6000, Loss_total = 609.2172851562,  Loss_t0 = 0.0012738350, Loss_data = 48.1478004456,  Loss_physics = 367.2044372559
+[2024-10-22 16:22:17,587][__main__][INFO] - Epoch = 1300/6000, Loss_total = 598.6915893555,  Loss_t0 = 0.0012472491, Loss_data = 46.5815811157,  Loss_physics = 364.5364685059
+[2024-10-22 16:22:23,450][__main__][INFO] - Epoch = 1350/6000, Loss_total = 607.5529785156,  Loss_t0 = 0.0005038342, Loss_data = 47.5119094849,  Loss_physics = 369.4896545410
+[2024-10-22 16:22:29,275][__main__][INFO] - Epoch = 1400/6000, Loss_total = 590.4288330078,  Loss_t0 = 0.0008339565, Loss_data = 45.4632110596,  Loss_physics = 362.2788085938
+[2024-10-22 16:22:34,948][__main__][INFO] - Epoch = 1450/6000, Loss_total = 603.7046508789,  Loss_t0 = 0.0020389629, Loss_data = 47.2453613281,  Loss_physics = 365.4388427734
+[2024-10-22 16:22:41,233][__main__][INFO] - Epoch = 1500/6000, Loss_total = 612.5677490234,  Loss_t0 = 0.0008864615, Loss_data = 47.7297439575,  Loss_physics = 373.0325927734
+[2024-10-22 16:22:47,396][__main__][INFO] - Epoch = 1550/6000, Loss_total = 622.5346679688,  Loss_t0 = 0.0000384008, Loss_data = 49.0846672058,  Loss_physics = 377.0729064941
+[2024-10-22 16:22:53,359][__main__][INFO] - Epoch = 1600/6000, Loss_total = 612.4067382812,  Loss_t0 = 0.0000178495, Loss_data = 48.6839408875,  Loss_physics = 368.9691772461
+[2024-10-22 16:22:59,717][__main__][INFO] - Epoch = 1650/6000, Loss_total = 617.5770263672,  Loss_t0 = 0.0000591547, Loss_data = 49.7801017761,  Loss_physics = 368.6173095703
+[2024-10-22 16:23:06,256][__main__][INFO] - Epoch = 1700/6000, Loss_total = 618.5078735352,  Loss_t0 = 0.0000635369, Loss_data = 48.5525817871,  Loss_physics = 375.6814575195
+[2024-10-22 16:23:12,538][__main__][INFO] - Epoch = 1750/6000, Loss_total = 618.5177001953,  Loss_t0 = 0.0000691569, Loss_data = 48.7430152893,  Loss_physics = 374.7334289551
+[2024-10-22 16:23:18,498][__main__][INFO] - Epoch = 1800/6000, Loss_total = 621.8900146484,  Loss_t0 = 0.0001080454, Loss_data = 49.4469451904,  Loss_physics = 374.5472106934
+[2024-10-22 16:23:24,826][__main__][INFO] - Epoch = 1850/6000, Loss_total = 629.4479980469,  Loss_t0 = 0.0000357087, Loss_data = 50.2700424194,  Loss_physics = 378.0621032715
+[2024-10-22 16:23:31,058][__main__][INFO] - Epoch = 1900/6000, Loss_total = 623.7595214844,  Loss_t0 = 0.0001208766, Loss_data = 49.3655395508,  Loss_physics = 376.8109130859
+[2024-10-22 16:23:37,538][__main__][INFO] - Epoch = 1950/6000, Loss_total = 631.0949707031,  Loss_t0 = 0.0000397844, Loss_data = 49.9061775208,  Loss_physics = 381.5243530273
+[2024-10-22 16:23:43,908][__main__][INFO] - Epoch = 2000/6000, Loss_total = 622.4953613281,  Loss_t0 = 0.0000064486, Loss_data = 48.7893104553,  Loss_physics = 378.5424194336
+[2024-10-22 16:23:49,981][__main__][INFO] - Epoch = 2050/6000, Loss_total = 623.8595581055,  Loss_t0 = 0.0000711927, Loss_data = 49.6406440735,  Loss_physics = 375.5851745605
+[2024-10-22 16:23:56,085][__main__][INFO] - Epoch = 2100/6000, Loss_total = 621.0200805664,  Loss_t0 = 0.0000602024, Loss_data = 50.5173759460,  Loss_physics = 368.3729248047
+[2024-10-22 16:24:02,068][__main__][INFO] - Epoch = 2150/6000, Loss_total = 620.1981201172,  Loss_t0 = 0.0000046575, Loss_data = 48.6537551880,  Loss_physics = 376.9247131348
+[2024-10-22 16:24:08,274][__main__][INFO] - Epoch = 2200/6000, Loss_total = 611.5938720703,  Loss_t0 = 0.0000334897, Loss_data = 48.8211135864,  Loss_physics = 367.4548034668
+[2024-10-22 16:24:14,364][__main__][INFO] - Epoch = 2250/6000, Loss_total = 616.9893798828,  Loss_t0 = 0.0000205439, Loss_data = 48.9525146484,  Loss_physics = 372.2062377930
+[2024-10-22 16:24:20,587][__main__][INFO] - Epoch = 2300/6000, Loss_total = 615.9362182617,  Loss_t0 = 0.0000298825, Loss_data = 48.8096351624,  Loss_physics = 371.8581848145
+[2024-10-22 16:24:26,641][__main__][INFO] - Epoch = 2350/6000, Loss_total = 629.6505126953,  Loss_t0 = 0.0000311794, Loss_data = 50.0860595703,  Loss_physics = 379.1890563965
+[2024-10-22 16:24:32,503][__main__][INFO] - Epoch = 2400/6000, Loss_total = 616.9357299805,  Loss_t0 = 0.0000377485, Loss_data = 48.7025222778,  Loss_physics = 373.3854064941
+[2024-10-22 16:24:38,327][__main__][INFO] - Epoch = 2450/6000, Loss_total = 620.9124755859,  Loss_t0 = 0.0000124332, Loss_data = 48.6413421631,  Loss_physics = 377.6933593750
+[2024-10-22 16:24:44,391][__main__][INFO] - Epoch = 2500/6000, Loss_total = 623.9287109375,  Loss_t0 = 0.0000475036, Loss_data = 48.7470245361,  Loss_physics = 380.1461181641
+[2024-10-22 16:24:50,793][__main__][INFO] - Epoch = 2550/6000, Loss_total = 624.2056884766,  Loss_t0 = 0.0000233175, Loss_data = 48.6257858276,  Loss_physics = 381.0534057617
+[2024-10-22 16:24:56,902][__main__][INFO] - Epoch = 2600/6000, Loss_total = 618.3832397461,  Loss_t0 = 0.0000347480, Loss_data = 48.9053497314,  Loss_physics = 373.8217773438
+[2024-10-22 16:25:02,774][__main__][INFO] - Epoch = 2650/6000, Loss_total = 631.1278686523,  Loss_t0 = 0.0000657747, Loss_data = 50.3416786194,  Loss_physics = 379.3536682129
+[2024-10-22 16:25:08,796][__main__][INFO] - Epoch = 2700/6000, Loss_total = 619.0509643555,  Loss_t0 = 0.0000218458, Loss_data = 48.4356880188,  Loss_physics = 376.8507690430
+[2024-10-22 16:25:14,872][__main__][INFO] - Epoch = 2750/6000, Loss_total = 617.5502319336,  Loss_t0 = 0.0000937955, Loss_data = 48.8193664551,  Loss_physics = 373.3595886230
+[2024-10-22 16:25:21,452][__main__][INFO] - Epoch = 2800/6000, Loss_total = 619.4266357422,  Loss_t0 = 0.0000358304, Loss_data = 48.7328453064,  Loss_physics = 375.7266235352
+[2024-10-22 16:25:27,450][__main__][INFO] - Epoch = 2850/6000, Loss_total = 623.6757812500,  Loss_t0 = 0.0000331620, Loss_data = 49.5005149841,  Loss_physics = 376.1400756836
+[2024-10-22 16:25:33,769][__main__][INFO] - Epoch = 2900/6000, Loss_total = 614.1399536133,  Loss_t0 = 0.0001318423, Loss_data = 49.4376106262,  Loss_physics = 366.8199768066
+[2024-10-22 16:25:40,272][__main__][INFO] - Epoch = 2950/6000, Loss_total = 612.0040283203,  Loss_t0 = 0.0000071191, Loss_data = 48.2641906738,  Loss_physics = 370.6759948730
+[2024-10-22 16:25:46,469][__main__][INFO] - Epoch = 3000/6000, Loss_total = 613.0006103516,  Loss_t0 = 0.0005542179, Loss_data = 48.5454559326,  Loss_physics = 369.7191467285
+[2024-10-22 16:25:52,432][__main__][INFO] - Epoch = 3050/6000, Loss_total = 613.0167236328,  Loss_t0 = 0.0004713085, Loss_data = 48.2427177429,  Loss_physics = 371.3318176270
+[2024-10-22 16:25:58,509][__main__][INFO] - Epoch = 3100/6000, Loss_total = 605.2113647461,  Loss_t0 = 0.0009293518, Loss_data = 46.6804847717,  Loss_physics = 370.8796386719
+[2024-10-22 16:26:04,530][__main__][INFO] - Epoch = 3150/6000, Loss_total = 611.8931884766,  Loss_t0 = 0.0014897360, Loss_data = 47.7821350098,  Loss_physics = 371.4927368164
+[2024-10-22 16:26:10,498][__main__][INFO] - Epoch = 3200/6000, Loss_total = 608.7876586914,  Loss_t0 = 0.0027550617, Loss_data = 46.1445770264,  Loss_physics = 375.3096923828
+[2024-10-22 16:26:16,434][__main__][INFO] - Epoch = 3250/6000, Loss_total = 593.0297241211,  Loss_t0 = 0.0024882325, Loss_data = 45.0175094604,  Loss_physics = 365.4538879395
+[2024-10-22 16:26:22,311][__main__][INFO] - Epoch = 3300/6000, Loss_total = 584.6057739258,  Loss_t0 = 0.0027475706, Loss_data = 44.2390441895,  Loss_physics = 360.6629333496
+[2024-10-22 16:26:28,233][__main__][INFO] - Epoch = 3350/6000, Loss_total = 583.6813354492,  Loss_t0 = 0.0026097163, Loss_data = 44.8127822876,  Loss_physics = 357.0076599121
+[2024-10-22 16:26:34,094][__main__][INFO] - Epoch = 3400/6000, Loss_total = 590.0000000000,  Loss_t0 = 0.0027757245, Loss_data = 44.9849319458,  Loss_physics = 362.2996520996
+[2024-10-22 16:26:40,070][__main__][INFO] - Epoch = 3450/6000, Loss_total = 593.8316650391,  Loss_t0 = 0.0032447372, Loss_data = 45.1424446106,  Loss_physics = 364.8746948242
+[2024-10-22 16:26:45,943][__main__][INFO] - Epoch = 3500/6000, Loss_total = 622.5674438477,  Loss_t0 = 0.0000221932, Loss_data = 48.6980743408,  Loss_physics = 379.0549011230
+[2024-10-22 16:26:51,768][__main__][INFO] - Epoch = 3550/6000, Loss_total = 617.5111694336,  Loss_t0 = 0.0001240537, Loss_data = 49.3167991638,  Loss_physics = 370.8031921387
+[2024-10-22 16:26:57,543][__main__][INFO] - Epoch = 3600/6000, Loss_total = 609.9191284180,  Loss_t0 = 0.0001444043, Loss_data = 47.8353919983,  Loss_physics = 370.5978393555
+[2024-10-22 16:27:03,538][__main__][INFO] - Epoch = 3650/6000, Loss_total = 612.5241088867,  Loss_t0 = 0.0002278865, Loss_data = 48.3173675537,  Loss_physics = 370.7093811035
+[2024-10-22 16:27:09,650][__main__][INFO] - Epoch = 3700/6000, Loss_total = 619.7190551758,  Loss_t0 = 0.0006694676, Loss_data = 47.8767433167,  Loss_physics = 379.6658630371
+[2024-10-22 16:27:15,648][__main__][INFO] - Epoch = 3750/6000, Loss_total = 610.2669067383,  Loss_t0 = 0.0005767324, Loss_data = 48.0112457275,  Loss_physics = 369.6339721680
+[2024-10-22 16:27:21,513][__main__][INFO] - Epoch = 3800/6000, Loss_total = 618.7990722656,  Loss_t0 = 0.0006184367, Loss_data = 48.3170738220,  Loss_physics = 376.5953063965
+[2024-10-22 16:27:27,684][__main__][INFO] - Epoch = 3850/6000, Loss_total = 609.2859497070,  Loss_t0 = 0.0008184167, Loss_data = 48.3652420044,  Loss_physics = 366.6412658691
+[2024-10-22 16:27:33,507][__main__][INFO] - Epoch = 3900/6000, Loss_total = 617.1932983398,  Loss_t0 = 0.0046362937, Loss_data = 47.3300437927,  Loss_physics = 375.9067993164
+[2024-10-22 16:27:39,186][__main__][INFO] - Epoch = 3950/6000, Loss_total = 611.2261962891,  Loss_t0 = 0.0010246095, Loss_data = 47.5364685059,  Loss_physics = 372.5192565918
+[2024-10-22 16:27:45,497][__main__][INFO] - Epoch = 4000/6000, Loss_total = 600.2003784180,  Loss_t0 = 0.0017428281, Loss_data = 47.0845985413,  Loss_physics = 363.0346069336
+[2024-10-22 16:27:51,355][__main__][INFO] - Epoch = 4050/6000, Loss_total = 596.8048095703,  Loss_t0 = 0.0007452222, Loss_data = 47.4027328491,  Loss_physics = 359.0458679199
+[2024-10-22 16:27:57,280][__main__][INFO] - Epoch = 4100/6000, Loss_total = 600.1409912109,  Loss_t0 = 0.0011707825, Loss_data = 46.0828475952,  Loss_physics = 368.5559082031
+[2024-10-22 16:28:03,332][__main__][INFO] - Epoch = 4150/6000, Loss_total = 598.2415771484,  Loss_t0 = 0.0029624335, Loss_data = 45.9987792969,  Loss_physics = 365.2852172852
+[2024-10-22 16:28:09,501][__main__][INFO] - Epoch = 4200/6000, Loss_total = 586.8600463867,  Loss_t0 = 0.0020269786, Loss_data = 45.2716751099,  Loss_physics = 358.4746704102
+[2024-10-22 16:28:15,819][__main__][INFO] - Epoch = 4250/6000, Loss_total = 606.9539794922,  Loss_t0 = 0.0035468193, Loss_data = 45.9119606018,  Loss_physics = 373.8473815918
+[2024-10-22 16:28:21,856][__main__][INFO] - Epoch = 4300/6000, Loss_total = 584.5111694336,  Loss_t0 = 0.0024068195, Loss_data = 44.4635848999,  Loss_physics = 359.7864379883
+[2024-10-22 16:28:27,850][__main__][INFO] - Epoch = 4350/6000, Loss_total = 582.5977172852,  Loss_t0 = 0.0024412642, Loss_data = 44.8524017334,  Loss_physics = 355.8944396973
+[2024-10-22 16:28:34,278][__main__][INFO] - Epoch = 4400/6000, Loss_total = 582.3803100586,  Loss_t0 = 0.0021379071, Loss_data = 44.4844665527,  Loss_physics = 357.8200988770
+[2024-10-22 16:28:40,405][__main__][INFO] - Epoch = 4450/6000, Loss_total = 580.7966308594,  Loss_t0 = 0.0029201121, Loss_data = 44.0264015198,  Loss_physics = 357.7445373535
+[2024-10-22 16:28:46,044][__main__][INFO] - Epoch = 4500/6000, Loss_total = 585.1375122070,  Loss_t0 = 0.0020536985, Loss_data = 44.5073547363,  Loss_physics = 360.5470275879
+[2024-10-22 16:28:51,591][__main__][INFO] - Epoch = 4550/6000, Loss_total = 578.7852172852,  Loss_t0 = 0.0022170080, Loss_data = 43.8455276489,  Loss_physics = 357.3404846191
+[2024-10-22 16:28:57,494][__main__][INFO] - Epoch = 4600/6000, Loss_total = 585.3248901367,  Loss_t0 = 0.0029805463, Loss_data = 44.1418914795,  Loss_physics = 361.6349487305
+[2024-10-22 16:29:03,638][__main__][INFO] - Epoch = 4650/6000, Loss_total = 594.2963256836,  Loss_t0 = 0.0055120448, Loss_data = 45.5892944336,  Loss_physics = 360.8377990723
+[2024-10-22 16:29:09,779][__main__][INFO] - Epoch = 4700/6000, Loss_total = 595.4160156250,  Loss_t0 = 0.0024349210, Loss_data = 44.3514213562,  Loss_physics = 371.2239074707
+[2024-10-22 16:29:15,736][__main__][INFO] - Epoch = 4750/6000, Loss_total = 591.8870849609,  Loss_t0 = 0.0020916122, Loss_data = 45.4244728088,  Loss_physics = 362.6731262207
+[2024-10-22 16:29:23,952][__main__][INFO] - Epoch = 4800/6000, Loss_total = 576.9894409180,  Loss_t0 = 0.0035938623, Loss_data = 44.1567192078,  Loss_physics = 352.6120605469
+[2024-10-22 16:29:30,686][__main__][INFO] - Epoch = 4850/6000, Loss_total = 590.3488769531,  Loss_t0 = 0.0033652047, Loss_data = 43.8382263184,  Loss_physics = 367.7925415039
+[2024-10-22 16:29:39,290][__main__][INFO] - Epoch = 4900/6000, Loss_total = 583.2817382812,  Loss_t0 = 0.0022951262, Loss_data = 44.0508308411,  Loss_physics = 360.7324523926
+[2024-10-22 16:29:48,067][__main__][INFO] - Epoch = 4950/6000, Loss_total = 583.0479736328,  Loss_t0 = 0.0007562275, Loss_data = 44.7090644836,  Loss_physics = 358.7463378906
+[2024-10-22 16:29:55,146][__main__][INFO] - Epoch = 5000/6000, Loss_total = 592.8319702148,  Loss_t0 = 0.0014573375, Loss_data = 45.2879981995,  Loss_physics = 364.9346008301
+[2024-10-22 16:30:01,471][__main__][INFO] - Epoch = 5050/6000, Loss_total = 574.9946899414,  Loss_t0 = 0.0023391545, Loss_data = 43.1204872131,  Loss_physics = 357.0530700684
+[2024-10-22 16:30:07,409][__main__][INFO] - Epoch = 5100/6000, Loss_total = 570.2357788086,  Loss_t0 = 0.0014793014, Loss_data = 43.1390953064,  Loss_physics = 353.0610046387
+[2024-10-22 16:30:13,422][__main__][INFO] - Epoch = 5150/6000, Loss_total = 576.4127807617,  Loss_t0 = 0.0032372708, Loss_data = 43.9573364258,  Loss_physics = 353.3888244629
+[2024-10-22 16:30:19,452][__main__][INFO] - Epoch = 5200/6000, Loss_total = 581.5410156250,  Loss_t0 = 0.0023530934, Loss_data = 44.4426803589,  Loss_physics = 356.9744873047
+[2024-10-22 16:30:26,682][__main__][INFO] - Epoch = 5250/6000, Loss_total = 599.2130737305,  Loss_t0 = 0.0045876410, Loss_data = 44.3846282959,  Loss_physics = 372.7022705078
+[2024-10-22 16:30:33,686][__main__][INFO] - Epoch = 5300/6000, Loss_total = 579.7884521484,  Loss_t0 = 0.0025302798, Loss_data = 43.8915672302,  Loss_physics = 357.8004150391
+[2024-10-22 16:30:39,740][__main__][INFO] - Epoch = 5350/6000, Loss_total = 592.8730468750,  Loss_t0 = 0.0016257546, Loss_data = 44.6806640625,  Loss_physics = 367.8439636230
+[2024-10-22 16:30:45,863][__main__][INFO] - Epoch = 5400/6000, Loss_total = 566.5246582031,  Loss_t0 = 0.0027053743, Loss_data = 42.8268890381,  Loss_physics = 349.6849365234
+[2024-10-22 16:30:52,158][__main__][INFO] - Epoch = 5450/6000, Loss_total = 571.8244018555,  Loss_t0 = 0.0024551281, Loss_data = 43.3884315491,  Loss_physics = 352.4271850586
+[2024-10-22 16:30:58,049][__main__][INFO] - Epoch = 5500/6000, Loss_total = 588.4749145508,  Loss_t0 = 0.0029205824, Loss_data = 44.8904914856,  Loss_physics = 361.1019897461
+[2024-10-22 16:31:04,046][__main__][INFO] - Epoch = 5550/6000, Loss_total = 578.4340209961,  Loss_t0 = 0.0020711261, Loss_data = 43.3941154480,  Loss_physics = 359.3923645020
+[2024-10-22 16:31:10,102][__main__][INFO] - Epoch = 5600/6000, Loss_total = 577.8859863281,  Loss_t0 = 0.0017681301, Loss_data = 44.2172203064,  Loss_physics = 355.0317382812
+[2024-10-22 16:31:16,749][__main__][INFO] - Epoch = 5650/6000, Loss_total = 586.2873535156,  Loss_t0 = 0.0021114247, Loss_data = 44.0249404907,  Loss_physics = 364.0512695312
+[2024-10-22 16:31:23,771][__main__][INFO] - Epoch = 5700/6000, Loss_total = 569.1803588867,  Loss_t0 = 0.0030969633, Loss_data = 43.2388534546,  Loss_physics = 349.8891601562
+[2024-10-22 16:31:30,435][__main__][INFO] - Epoch = 5750/6000, Loss_total = 585.1845092773,  Loss_t0 = 0.0013447909, Loss_data = 44.5561676025,  Loss_physics = 361.0588378906
+[2024-10-22 16:31:37,656][__main__][INFO] - Epoch = 5800/6000, Loss_total = 563.0836181641,  Loss_t0 = 0.0033282554, Loss_data = 43.3038787842,  Loss_physics = 343.2359008789
+[2024-10-22 16:31:44,318][__main__][INFO] - Epoch = 5850/6000, Loss_total = 567.6599121094,  Loss_t0 = 0.0024681711, Loss_data = 42.6260147095,  Loss_physics = 352.0617065430
+[2024-10-22 16:31:50,549][__main__][INFO] - Epoch = 5900/6000, Loss_total = 573.1876831055,  Loss_t0 = 0.0037765391, Loss_data = 44.1404914856,  Loss_physics = 348.7086791992
+[2024-10-22 16:31:57,061][__main__][INFO] - Epoch = 5950/6000, Loss_total = 577.7271118164,  Loss_t0 = 0.0005987046, Loss_data = 42.6884994507,  Loss_physics = 363.6858825684
